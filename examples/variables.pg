@@ -1,0 +1,10 @@
+delibird main
+
+impidimp "fmt"
+
+feraligatr main() {
+
+    quilava s string
+    s = "I-House Scav 2020!"
+    fmt.Println(s)
+}

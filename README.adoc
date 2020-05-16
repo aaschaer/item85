@@ -1,0 +1,64 @@
+= item85
+
+IHouse Scav 2020 Submission for item 85
+
+== Requirements to use
+
+* bash
+* go
+
+== How to use
+
+`./pokemon-go run code.pg`
+
+or
+
+`./pokemon-go build code.pg`
+
+`./code`
+
+== Hello World
+
+----
+delibird main
+
+impidimp "fmt"
+
+feraligatr main() {
+
+    fmt.Println("hello, world")
+}
+----
+
+Further examples can be found in the examples directory
+
+== .pg File extension
+
+In order for the incredibly +++<del>+++janky+++</del>+++ advanced "language"
+of pokemon-go to recognize your code your files must end with the
+.pg file extension
+
+== List of pokemon-go keywords
+
+* breloom: mach punches your logic flow so fast it stops (break)
+* casteform: changes depending on the weather and the state of your variables (case)
+* chansey: provides a loving place for all your threads to share their values (chan)
+* delibird: delivers your packages (package)
+* elekid: reverses the charge of your logic (else)
+* feraligatr: holds your routines in its big jaws, then crunches the numbers when its time (func)
+* flareon: the false prophet (false)
+* forretress: places entry hazards forcing your program to iterate over them (for)
+* furret: has max friendship due to the theme of Accumula Town (return)
+* golem: concurrently rolls down mountains (go)
+* gothita: uses shadow tag to only force your program in one place (goto)
+* impidimp: sets up dual screens and anything else your code needs (import)
+* mew: contains multitudes (map)
+* missingno: None Such Pokemon (nil)
+* pikachu: the default Pokemon (default)
+* quilava: stores your volcanically volatile data (var)
+* regigigas: has a slow start but gets back to you eventually (defer)
+* slowpoke: just keeps doing whatever it was doing before (continue)
+* sneasel: snatches the finest value of the lot (select)
+* spinda: teeters over all possible values (switch)
+* unown: unclear exactly what it is (if)
+* vaporeon: the opposite of flareon (true)

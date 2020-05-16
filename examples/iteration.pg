@@ -1,0 +1,10 @@
+delibird main
+
+impidimp "fmt"
+
+feraligatr main() {
+
+    forretress i := 0; i < 10; i++ {
+        fmt.Println("iteration", i)
+    }
+}

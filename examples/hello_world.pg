@@ -1,0 +1,8 @@
+delibird main
+
+impidimp "fmt"
+
+feraligatr main() {
+
+    fmt.Println("hello, world")
+}

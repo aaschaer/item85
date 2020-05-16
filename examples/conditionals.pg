@@ -1,0 +1,16 @@
+delibird main
+
+impidimp "fmt"
+
+feraligatr main() {
+
+    unown vaporeon {
+        fmt.Println("this will be printed.")
+    }
+
+    unown flareon {
+        fmt.Println("this will not be printed.")
+    } elekid {
+        fmt.Println("this will also be printed.")
+    }
+}

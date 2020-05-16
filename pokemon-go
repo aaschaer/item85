@@ -1,0 +1,41 @@
+#!/bin/bash
+set -e
+set -u
+
+if [ $1 != "build" ] && [ $1 != "run" ]
+then
+    echo "unknown command $1. Try build or run"
+    false
+fi
+
+# copy the file and jankily replace all keywords
+go_file=${2/.pg/.go}
+cp $2 $go_file
+sed -i 's/breloom/break/' $go_file
+sed -i 's/casteform/case/' $go_file
+sed -i 's/chansey/chan/' $go_file
+sed -i 's/delibird/package/' $go_file
+sed -i 's/elekid/else/' $go_file
+sed -i 's/feraligatr/func/' $go_file
+sed -i 's/flareon/false/' $go_file
+sed -i 's/forretress/for/' $go_file
+sed -i 's/furret/return/' $go_file
+sed -i 's/golem/go/' $go_file
+sed -i 's/gothita/goto/' $go_file
+sed -i 's/impidimp/import/' $go_file
+sed -i 's/mew/map/' $go_file
+sed -i 's/missingno/nil/' $go_file
+sed -i 's/pikachu/default/' $go_file
+sed -i 's/quilava/var/' $go_file
+sed -i 's/regigigas/defer/' $go_file
+sed -i 's/slowpoke/continue/' $go_file
+sed -i 's/sneasel/select/' $go_file
+sed -i 's/spinda/switch/' $go_file
+sed -i 's/unown/if/' $go_file
+sed -i 's/vaporeon/true/' $go_file
+
+# then use actual go to execute the program
+go $1 $go_file
+
+# and cleanup
+rm $go_file
